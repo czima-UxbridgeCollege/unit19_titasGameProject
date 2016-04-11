@@ -5,6 +5,8 @@
 			DON'T FUCKING TOUCH
 			ANYTHING IF YOU HAVE
 			NO IDEA WHAT YOU'RE DOING
+
+								-Jacek
 *******************************************/
 #ifndef MAP_ENTITY_HEADER
 #define MAP_ENTITY_HEADER
@@ -23,7 +25,7 @@ public:
 
 	mapEntity() {};
 	virtual ~mapEntity() {};
-
+	
 protected:
 
 	int roomType;	//might change type
@@ -31,4 +33,5 @@ protected:
 private:
 
 };
+
 #endif //End of characterEntity Header

@@ -5,6 +5,8 @@
 			DON'T FUCKING TOUCH
 			ANYTHING IF YOU HAVE
 			NO IDEA WHAT YOU'RE DOING
+
+								-Jacek
 *******************************************/
 #ifndef CHARACTER_ENTITY_HEADER
 #define CHARACTER_ENTITY_HEADER

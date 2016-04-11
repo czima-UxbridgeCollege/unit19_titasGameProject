@@ -13,6 +13,8 @@
 			These are all basically containers
 			hard to fuck it up, but I have 
 			faith one of you will manage.
+
+								-Jacek
 *******************************************/
 #ifndef ENTITY_HEADER
 #define ENTITY_HEADER
@@ -41,6 +43,7 @@ public:
 			 entity(){};
 	virtual ~entity(){};	//Destructor made virtual to ensure the newest possible
 							//iteration is always used
+	
 
 protected:
 
