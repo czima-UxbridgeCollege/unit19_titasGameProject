@@ -74,6 +74,8 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
+    <IncludePath>C:\Users\40036375\Source\Repos\unit19_titasGameProject\unit19_gameProject\SDL-1.2.15\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\40036375\Source\Repos\unit19_titasGameProject\unit19_gameProject\SDL-1.2.15\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
@@ -147,12 +149,14 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="menu.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="characterEntity.h" />
     <ClInclude Include="entity.h" />
     <ClInclude Include="itemEntity.h" />
     <ClInclude Include="mapEntity.h" />
+    <ClInclude Include="menu.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
