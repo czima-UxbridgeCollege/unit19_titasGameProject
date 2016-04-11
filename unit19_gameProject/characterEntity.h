@@ -18,6 +18,7 @@ Character entity class deriving from basic abstract
 contains ints "hp, atk, def, ap"
 
 *******************************************/
+
 class characterEntity :public entity
 {
 public:
