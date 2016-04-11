@@ -18,16 +18,19 @@ Character entity class deriving from basic abstract
 contains ints "hp, atk, def, ap"
 
 *******************************************/
-class mapEntity :public entity
+class characterEntity :public entity
 {
 public:
 
-	mapEntity(){};
-	virtual ~mapEntity(){};
+	characterEntity() {};
+	virtual ~characterEntity() {};
 
 protected:
-	
-	int roomType;	//might change type
+
+	int hp;		//ints used to avoid floats fucking up in various ways
+	int atk;	//they arent needed here anyway
+	int def;
+	int ap;
 
 private:
 

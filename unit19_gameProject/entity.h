@@ -9,6 +9,10 @@
 			I know they require fucking 
 			setters and getters, leave it be 
 			for now!
+
+			These are all basically containers
+			hard to fuck it up, but I have 
+			faith one of you will manage.
 *******************************************/
 #ifndef ENTITY_HEADER
 #define ENTITY_HEADER

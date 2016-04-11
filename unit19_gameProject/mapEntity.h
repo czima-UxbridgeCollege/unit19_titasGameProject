@@ -17,19 +17,16 @@ Map entity class deriving from basic abstract
 "entity". To be used for rooms, etc.
 
 *******************************************/
-class characterEntity :public entity
+class mapEntity :public entity
 {
 public:
 
-	characterEntity(){};
-	virtual ~characterEntity(){};
+	mapEntity() {};
+	virtual ~mapEntity() {};
 
 protected:
 
-	int hp;		//ints used to avoid floats fucking up in various ways
-	int atk;	//they arent needed here anyway
-	int def;
-	int ap;
+	int roomType;	//might change type
 
 private:
 
