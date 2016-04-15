@@ -25,10 +25,14 @@ public:
 
 	mapEntity() {};
 	virtual ~mapEntity() {};
+
+	//setters and getters
+	void setRoomType(short int roomType) {};
+	int	 getRoomType() {};
 	
 protected:
 
-	int roomType;	//might change type
+	short int roomType;	//might change type
 
 private:
 

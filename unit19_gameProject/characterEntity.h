@@ -18,7 +18,7 @@
 Character entity class deriving from basic abstract
 "entity". To be used for the player, as well as enemies.
 contains ints "hp, atk, def, ap"
-
+Allows for enemy quick-creation.
 *******************************************/
 
 class characterEntity :public entity
@@ -28,12 +28,25 @@ public:
 	characterEntity() {};
 	virtual ~characterEntity() {};
 
+	//setters and getters
+	void setHP(int hp) {};
+	void setATK(int atk) {};
+	void setDEF(int def) {};
+	//void setAP(int ap) {}; //AP or "Action Points" might be used instead of 
+							 //mana to cast, as it can be used for various classes
+							 //should we decided to implement them
+	int getHP() {};
+	int getATK() {};
+	int getDEF() {};
+	//int getAP() {};		 //AP getter for future use.
+
+
 protected:
 
 	int hp;		//ints used to avoid floats fucking up in various ways
 	int atk;	//they arent needed here anyway
 	int def;
-	int ap;
+	//int ap;
 
 private:
 

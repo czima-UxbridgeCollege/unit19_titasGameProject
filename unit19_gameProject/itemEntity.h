@@ -27,6 +27,10 @@ public:
 			 itemEntity(){};
 	virtual ~itemEntity(){};
 
+	//setters and getters
+	void setItemUsesRemaining(short int itemUsesRemaining){};
+	short int getItemUsesRemaining() {};
+
 protected:
 	//for item name, id, description, etc, use entity's "entityIdBox" struct.
 	//for variables specific to items, use the variables below.

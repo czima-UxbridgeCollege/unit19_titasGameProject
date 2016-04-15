@@ -16,13 +16,19 @@
     <Filter Include="Header Files\Entity Headers">
       <UniqueIdentifier>{e8652ebf-e141-48a3-8157-16f186876163}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Entity CPP files">
+      <UniqueIdentifier>{8e8b8779-7d88-48f4-b237-e268f7d969f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CPP Files">
+      <UniqueIdentifier>{c08a47dd-df1e-466f-b46a-52e0712d9e28}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="menu.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>CPP Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
