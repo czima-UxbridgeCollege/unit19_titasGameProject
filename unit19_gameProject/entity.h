@@ -6,10 +6,6 @@
 			ANYTHING IF YOU HAVE
 			NO IDEA WHAT YOU'RE DOING
 
-			I know they require fucking 
-			setters and getters, leave it be 
-			for now!
-
 			These are all basically containers
 			hard to fuck it up, but I have 
 			faith one of you will manage.
@@ -43,7 +39,12 @@ public:
 			 entity(){};
 	virtual ~entity(){};	//Destructor made virtual to ensure the newest possible
 							//iteration is always used
-	
+							//a virtual destructor has to be declared with each iteration
+							//otherwise shit breaks
+
+	//void setEntityIdBox(int id, std::string name, std::string type, 
+	//					std::string description, bool isAlive) {};
+	//???? getEntityIdBox(){};
 
 protected:
 
@@ -63,7 +64,7 @@ protected:
 		std::string		type;
 		std::string		description;
 		bool			isAlive;
-	};
+	} entityBoxTest;
 
 private:
 

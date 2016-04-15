@@ -30,6 +30,18 @@
     <ClCompile Include="menu.cpp">
       <Filter>CPP Files</Filter>
     </ClCompile>
+    <ClCompile Include="characterEntity.cpp">
+      <Filter>Entity CPP files</Filter>
+    </ClCompile>
+    <ClCompile Include="itemEntity.cpp">
+      <Filter>Entity CPP files</Filter>
+    </ClCompile>
+    <ClCompile Include="mapEntity.cpp">
+      <Filter>Entity CPP files</Filter>
+    </ClCompile>
+    <ClCompile Include="entity.cpp">
+      <Filter>Entity CPP files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="characterEntity.h">
