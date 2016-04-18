@@ -25,8 +25,7 @@ class characterEntity :public entity
 {
 public:
 
-	characterEntity() {};
-
+			 characterEntity() {};
 	virtual ~characterEntity() {};
 
 	//setters and getters

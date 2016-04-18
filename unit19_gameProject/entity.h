@@ -41,11 +41,11 @@ public:
 							//iteration is always used
 							//a virtual destructor has to be declared with each iteration
 							//otherwise shit breaks
-
-	//void setEntityIdBox(int id, std::string name, std::string type, 
+	
+	//void setEntityIdBox(entityIdBox entityBoxTest) 
 	//					std::string description, bool isAlive) {};
-	//???? getEntityIdBox(){};
-
+	//entityIdBox getEntityIdBox(){};
+	//testing ^ dont touch
 protected:
 
 	/*******************************************
