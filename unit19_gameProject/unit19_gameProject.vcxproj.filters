@@ -22,6 +22,9 @@
     <Filter Include="CPP Files">
       <UniqueIdentifier>{c08a47dd-df1e-466f-b46a-52e0712d9e28}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\Item Headers">
+      <UniqueIdentifier>{8cde8561-b3e7-4f32-a5c6-32bf275ce8ce}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -46,6 +49,9 @@
     </ClInclude>
     <ClInclude Include="menu.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemWeapons.h">
+      <Filter>Header Files\Item Headers</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

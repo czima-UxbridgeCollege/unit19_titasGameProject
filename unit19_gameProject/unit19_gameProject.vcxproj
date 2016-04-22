@@ -155,6 +155,7 @@
     <ClInclude Include="characterEntity.h" />
     <ClInclude Include="entity.h" />
     <ClInclude Include="itemEntity.h" />
+    <ClInclude Include="ItemWeapons.h" />
     <ClInclude Include="mapEntity.h" />
     <ClInclude Include="menu.h" />
   </ItemGroup>
