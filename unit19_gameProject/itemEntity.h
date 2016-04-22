@@ -28,8 +28,8 @@ public:
 	virtual ~itemEntity(){};
 
 	//setters and getters
-	void setItemUsesRemaining(short int itemUsesRemaining){};
-	short int getItemUsesRemaining() {};
+	void setItemUsesRemaining(short int itemUsesRemaining);
+	short int getItemUsesRemaining();
 
 protected:
 	//for item name, id, description, etc, use entity's "entityIdBox" struct.

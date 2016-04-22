@@ -23,12 +23,12 @@ class mapEntity :public entity
 {
 public:
 
-	mapEntity() {};
+			 mapEntity() {};
 	virtual ~mapEntity() {};
 
 	//setters and getters
-	void setRoomType(short int roomType) {};
-	int	 getRoomType() {};
+	void setRoomType(short int roomType);
+	int	 getRoomType();
 	
 protected:
 
@@ -38,4 +38,4 @@ private:
 
 };
 
-#endif //End of characterEntity Header
+#endif //End of mapEntity Header
