@@ -158,6 +158,7 @@
   <ItemGroup>
     <ClInclude Include="characterEntity.h" />
     <ClInclude Include="entity.h" />
+    <ClInclude Include="ItemArmor.h" />
     <ClInclude Include="itemEntity.h" />
     <ClInclude Include="ItemWeapons.h" />
     <ClInclude Include="mapEntity.h" />

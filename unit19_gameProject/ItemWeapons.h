@@ -30,7 +30,7 @@ class ItemWeapons
 public:
 	ItemWeapons();
 	~ItemWeapons();
-	//seters and getters 
+	//seters and getters for weapons
 	void SetSword(int sword) {};
 	int GetSword() {};
 	void SetAxe(int axe) {};
