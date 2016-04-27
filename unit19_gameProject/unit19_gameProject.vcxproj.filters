@@ -68,5 +68,8 @@
     <ClInclude Include="ItemArmor.h">
       <Filter>Header Files\Item Headers</Filter>
     </ClInclude>
+    <ClInclude Include="ItemPotion.h">
+      <Filter>Header Files\Item Headers</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

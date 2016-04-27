@@ -160,6 +160,7 @@
     <ClInclude Include="entity.h" />
     <ClInclude Include="ItemArmor.h" />
     <ClInclude Include="itemEntity.h" />
+    <ClInclude Include="ItemPotion.h" />
     <ClInclude Include="ItemWeapons.h" />
     <ClInclude Include="mapEntity.h" />
     <ClInclude Include="menu.h" />

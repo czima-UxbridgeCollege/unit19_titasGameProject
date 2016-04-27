@@ -43,6 +43,7 @@ private:
 	// std::string body;
 	// std::string legs;
 	 
+	//head body and leg armor will have different set values for the player
 	 int head;
 	 int body;
 	 int legs;
