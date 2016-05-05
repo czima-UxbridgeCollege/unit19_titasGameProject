@@ -25,6 +25,9 @@
     <Filter Include="Header Files\Item Headers">
       <UniqueIdentifier>{8cde8561-b3e7-4f32-a5c6-32bf275ce8ce}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Item CPP files">
+      <UniqueIdentifier>{90652e2f-ce59-4fc7-97d7-3c3c78b9808a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -44,6 +47,12 @@
     </ClCompile>
     <ClCompile Include="entity.cpp">
       <Filter>Entity CPP files</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemWeapons.cpp">
+      <Filter>Item CPP files</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemArmor.cpp">
+      <Filter>Item CPP files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

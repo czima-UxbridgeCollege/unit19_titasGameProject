@@ -150,7 +150,9 @@
   <ItemGroup>
     <ClCompile Include="characterEntity.cpp" />
     <ClCompile Include="entity.cpp" />
+    <ClCompile Include="ItemArmor.cpp" />
     <ClCompile Include="itemEntity.cpp" />
+    <ClCompile Include="ItemWeapons.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="mapEntity.cpp" />
     <ClCompile Include="menu.cpp" />
