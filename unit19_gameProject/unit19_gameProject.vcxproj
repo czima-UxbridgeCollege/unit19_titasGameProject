@@ -152,6 +152,7 @@
     <ClCompile Include="entity.cpp" />
     <ClCompile Include="ItemArmor.cpp" />
     <ClCompile Include="itemEntity.cpp" />
+    <ClCompile Include="ItemPostion.cpp" />
     <ClCompile Include="ItemWeapons.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="mapEntity.cpp" />

@@ -54,6 +54,9 @@
     <ClCompile Include="ItemArmor.cpp">
       <Filter>Item CPP files</Filter>
     </ClCompile>
+    <ClCompile Include="ItemPostion.cpp">
+      <Filter>Item CPP files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="characterEntity.h">
