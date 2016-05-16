@@ -30,13 +30,14 @@ public:
 	ItemPotion();
 	~ItemPotion();
 	//setter and getter
-	void SetHealth(int health) {};
-	int GetHealth() {};
-
+	void SetHealth(int health) {}
+	int GetHealth() {}
+	void SetTimeHealth(int tHealth){}
+	int GetTimeHealth(){}
 private:
 	//this will add to the players health 
 	int health;//this may need to be changed 
-
+	int tHealth;//this is for health over a certian period of time 
 
 };
 

@@ -37,6 +37,12 @@
     <Filter Include="CPP Files\Item CPP files">
       <UniqueIdentifier>{90652e2f-ce59-4fc7-97d7-3c3c78b9808a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\Shop Headers">
+      <UniqueIdentifier>{5f57e069-77f3-49dc-8e99-f57012e62d08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CPP Files\Shop CPP files">
+      <UniqueIdentifier>{c77db385-52c7-4eb6-a8bc-d4b95b2b8618}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -81,6 +87,9 @@
     <ClCompile Include="game.cpp">
       <Filter>CPP Files\Menu and Introduction CPP files</Filter>
     </ClCompile>
+    <ClCompile Include="ShopCoin.cpp">
+      <Filter>CPP Files\Shop CPP files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="characterEntity.h">
@@ -124,6 +133,9 @@
     </ClInclude>
     <ClInclude Include="menu.h">
       <Filter>Header Files\Menu and Introduction Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ShopCoin.h">
+      <Filter>Header Files\Shop Headers</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

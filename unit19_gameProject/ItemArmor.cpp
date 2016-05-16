@@ -22,6 +22,7 @@ ItemArmor::~ItemArmor()
 /***************
 Setters and getters for armor
 just setting these up these may need to be change
+int prt will accpt the value of the amour 
 ****************/
 void ItemArmor::SetHead(int prt) { head = prt;}
 void ItemArmor::SetBody(int prt ) {body = prt;}

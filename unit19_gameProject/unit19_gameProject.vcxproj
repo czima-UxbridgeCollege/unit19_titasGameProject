@@ -162,9 +162,11 @@
     <ClCompile Include="mapEntity.cpp" />
     <ClCompile Include="menu.cpp" />
     <ClCompile Include="quit.cpp" />
+    <ClCompile Include="ShopCoin.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="characterEntity.h" />
+    <ClInclude Include="ShopCoin.h" />
     <ClInclude Include="constants.h" />
     <ClInclude Include="entity.h" />
     <ClInclude Include="game.h" />
