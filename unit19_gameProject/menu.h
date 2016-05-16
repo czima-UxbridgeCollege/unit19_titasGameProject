@@ -1,11 +1,13 @@
 #ifndef MENU_HEADER
 #define MENU_HEADER
 
-#include "constants.h" //included to make it easy for statechanges.
-
+#include <iostream>
+#include <string>
+#include <SDL.h>
+using namespace std;
 /*******************************************
-The menu class will be the first interactable screen which 
-will offer options to start the game, change settings and
+The menu class will be the first interactable screen which
+will offer options to start the game and
 exit the game, depending on what the user chooses.
 
 *******************************************/
@@ -14,16 +16,17 @@ class menu
 {
 public:
 
-	menu() {};
-	~menu() {};
-
+	menu();
+	virtual ~menu();
+	string	choice;
 protected:
-	//void print(); //unnecessary, the initial print can just go into
-					//the constructor
+
 
 
 private:
 
 };
 #endif //End of menu Header
+
+
 

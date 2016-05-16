@@ -10,7 +10,7 @@ public:
 	~game();
 	void initialise();
 	void run();
-
+	int lol;
 
 
 };
