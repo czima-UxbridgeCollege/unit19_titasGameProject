@@ -16,16 +16,25 @@
     <Filter Include="Header Files\Entity Headers">
       <UniqueIdentifier>{e8652ebf-e141-48a3-8157-16f186876163}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Entity CPP files">
-      <UniqueIdentifier>{8e8b8779-7d88-48f4-b237-e268f7d969f2}</UniqueIdentifier>
-    </Filter>
     <Filter Include="CPP Files">
       <UniqueIdentifier>{c08a47dd-df1e-466f-b46a-52e0712d9e28}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header Files\Item Headers">
       <UniqueIdentifier>{8cde8561-b3e7-4f32-a5c6-32bf275ce8ce}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Item CPP files">
+    <Filter Include="Header Files\Menu and Introduction Headers">
+      <UniqueIdentifier>{d7075d80-c2fc-434b-8643-899cd61fe28a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CPP Files\Menu and Introduction CPP files">
+      <UniqueIdentifier>{6138f779-8487-4ad3-8c50-0c07b6bf90ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CPP Files\Entity CPP files">
+      <UniqueIdentifier>{8e8b8779-7d88-48f4-b237-e268f7d969f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameState">
+      <UniqueIdentifier>{a23a01e6-950e-42bf-8501-44a55470b348}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CPP Files\Item CPP files">
       <UniqueIdentifier>{90652e2f-ce59-4fc7-97d7-3c3c78b9808a}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
@@ -33,29 +42,47 @@
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="menu.cpp">
-      <Filter>CPP Files</Filter>
-    </ClCompile>
     <ClCompile Include="characterEntity.cpp">
-      <Filter>Entity CPP files</Filter>
+      <Filter>CPP Files\Entity CPP files</Filter>
     </ClCompile>
     <ClCompile Include="itemEntity.cpp">
-      <Filter>Entity CPP files</Filter>
+      <Filter>CPP Files\Entity CPP files</Filter>
     </ClCompile>
     <ClCompile Include="mapEntity.cpp">
-      <Filter>Entity CPP files</Filter>
+      <Filter>CPP Files\Entity CPP files</Filter>
     </ClCompile>
     <ClCompile Include="entity.cpp">
-      <Filter>Entity CPP files</Filter>
+      <Filter>CPP Files\Entity CPP files</Filter>
     </ClCompile>
     <ClCompile Include="ItemWeapons.cpp">
-      <Filter>Item CPP files</Filter>
+      <Filter>CPP Files\Item CPP files</Filter>
     </ClCompile>
     <ClCompile Include="ItemArmor.cpp">
-      <Filter>Item CPP files</Filter>
+      <Filter>CPP Files\Item CPP files</Filter>
     </ClCompile>
     <ClCompile Include="ItemPostion.cpp">
-      <Filter>Item CPP files</Filter>
+      <Filter>CPP Files\Item CPP files</Filter>
+    </ClCompile>
+    <ClCompile Include="gameState.cpp">
+      <Filter>gameState</Filter>
+    </ClCompile>
+    <ClCompile Include="menu.cpp">
+      <Filter>CPP Files\Menu and Introduction CPP files</Filter>
+    </ClCompile>
+    <ClCompile Include="title.cpp">
+      <Filter>CPP Files\Menu and Introduction CPP files</Filter>
+    </ClCompile>
+    <ClCompile Include="help.cpp">
+      <Filter>CPP Files\Menu and Introduction CPP files</Filter>
+    </ClCompile>
+    <ClCompile Include="gameOver.cpp">
+      <Filter>CPP Files\Menu and Introduction CPP files</Filter>
+    </ClCompile>
+    <ClCompile Include="quit.cpp">
+      <Filter>CPP Files\Menu and Introduction CPP files</Filter>
+    </ClCompile>
+    <ClCompile Include="game.cpp">
+      <Filter>CPP Files\Menu and Introduction CPP files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -82,6 +109,27 @@
     </ClInclude>
     <ClInclude Include="ItemPotion.h">
       <Filter>Header Files\Item Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="constants.h">
+      <Filter>Header Files\Menu and Introduction Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="gameState.h">
+      <Filter>gameState</Filter>
+    </ClInclude>
+    <ClInclude Include="title.h">
+      <Filter>Header Files\Menu and Introduction Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="game.h">
+      <Filter>Header Files\Menu and Introduction Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="help.h">
+      <Filter>Header Files\Menu and Introduction Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="gameOver.h">
+      <Filter>Header Files\Menu and Introduction Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="quit.h">
+      <Filter>Header Files\Menu and Introduction Headers</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

@@ -10,8 +10,8 @@ Mark
 *******************************************/
 
 
-#ifndef ITEM_Potion_HEADER
-#define ITEM_Potion_HEADER
+#ifndef ITEM_POTION_HEADER //IFNDEF/DEFINITIONS should be in ALL CAPS -Jacek
+#define ITEM_POTION_HEADER
 #include"itemEntity.h"
 #include <string>
 

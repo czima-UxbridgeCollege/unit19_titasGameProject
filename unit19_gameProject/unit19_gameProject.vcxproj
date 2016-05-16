@@ -150,6 +150,10 @@
   <ItemGroup>
     <ClCompile Include="characterEntity.cpp" />
     <ClCompile Include="entity.cpp" />
+    <ClCompile Include="game.cpp" />
+    <ClCompile Include="gameOver.cpp" />
+    <ClCompile Include="gameState.cpp" />
+    <ClCompile Include="help.cpp" />
     <ClCompile Include="ItemArmor.cpp" />
     <ClCompile Include="itemEntity.cpp" />
     <ClCompile Include="ItemPostion.cpp" />
@@ -157,16 +161,25 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="mapEntity.cpp" />
     <ClCompile Include="menu.cpp" />
+    <ClCompile Include="quit.cpp" />
+    <ClCompile Include="title.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="characterEntity.h" />
+    <ClInclude Include="constants.h" />
     <ClInclude Include="entity.h" />
+    <ClInclude Include="game.h" />
+    <ClInclude Include="gameOver.h" />
+    <ClInclude Include="gameState.h" />
+    <ClInclude Include="help.h" />
     <ClInclude Include="ItemArmor.h" />
     <ClInclude Include="itemEntity.h" />
     <ClInclude Include="ItemPotion.h" />
     <ClInclude Include="ItemWeapons.h" />
     <ClInclude Include="mapEntity.h" />
     <ClInclude Include="menu.h" />
+    <ClInclude Include="quit.h" />
+    <ClInclude Include="title.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
