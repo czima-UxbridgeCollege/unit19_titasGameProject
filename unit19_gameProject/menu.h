@@ -1,8 +1,7 @@
 #ifndef MENU_HEADER
 #define MENU_HEADER
 
-#include <iostream>
-#include <string>
+#include "constants.h" //included to make it easy for statechanges.
 
 /*******************************************
 The menu class will be the first interactable screen which 
@@ -16,10 +15,11 @@ class menu
 public:
 
 	menu() {};
-	virtual ~menu() {};
+	~menu() {};
 
 protected:
-	void print();
+	//void print(); //unnecessary, the initial print can just go into
+					//the constructor
 
 
 private:

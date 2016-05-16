@@ -69,9 +69,6 @@
     <ClCompile Include="menu.cpp">
       <Filter>CPP Files\Menu and Introduction CPP files</Filter>
     </ClCompile>
-    <ClCompile Include="title.cpp">
-      <Filter>CPP Files\Menu and Introduction CPP files</Filter>
-    </ClCompile>
     <ClCompile Include="help.cpp">
       <Filter>CPP Files\Menu and Introduction CPP files</Filter>
     </ClCompile>
@@ -98,9 +95,6 @@
     <ClInclude Include="mapEntity.h">
       <Filter>Header Files\Entity Headers</Filter>
     </ClInclude>
-    <ClInclude Include="menu.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="ItemWeapons.h">
       <Filter>Header Files\Item Headers</Filter>
     </ClInclude>
@@ -116,9 +110,6 @@
     <ClInclude Include="gameState.h">
       <Filter>gameState</Filter>
     </ClInclude>
-    <ClInclude Include="title.h">
-      <Filter>Header Files\Menu and Introduction Headers</Filter>
-    </ClInclude>
     <ClInclude Include="game.h">
       <Filter>Header Files\Menu and Introduction Headers</Filter>
     </ClInclude>
@@ -129,6 +120,9 @@
       <Filter>Header Files\Menu and Introduction Headers</Filter>
     </ClInclude>
     <ClInclude Include="quit.h">
+      <Filter>Header Files\Menu and Introduction Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="menu.h">
       <Filter>Header Files\Menu and Introduction Headers</Filter>
     </ClInclude>
   </ItemGroup>

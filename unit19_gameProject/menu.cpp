@@ -1,7 +1,3 @@
 #include "menu.h"
-#include <SDL.h>
+#include <iostream>
 
-void menu::print()
-{
-
-}
