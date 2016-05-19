@@ -1,5 +1,11 @@
 #include "mapEntity.h"
 
+/*******************************************
+Map entity class deriving from basic abstract
+"entity". To be used for rooms, etc.
+							-Jacek
+*******************************************/
+
 mapEntity::mapEntity() 
 {
 

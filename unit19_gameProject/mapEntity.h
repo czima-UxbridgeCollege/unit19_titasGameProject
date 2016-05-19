@@ -1,13 +1,3 @@
-/*******************************************
-			EVERYTHING HERE IS A WORK
-			IN PROGRESS/IN THE
-			MIDDLE OF BEING TESTED.
-			DON'T FUCKING TOUCH
-			ANYTHING IF YOU HAVE
-			NO IDEA WHAT YOU'RE DOING
-
-								-Jacek
-*******************************************/
 #ifndef MAP_ENTITY_HEADER
 #define MAP_ENTITY_HEADER
 
@@ -17,7 +7,7 @@
 /*******************************************
 Map entity class deriving from basic abstract
 "entity". To be used for rooms, etc.
-
+						-Jacek
 *******************************************/
 class mapEntity :public entity
 {

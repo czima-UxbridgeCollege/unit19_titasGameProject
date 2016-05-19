@@ -1,5 +1,13 @@
 #include "characterEntity.h"
 
+/*******************************************
+Character entity class deriving from basic abstract
+"entity". To be used for the player, as well as enemies.
+contains ints "hp, atk, def, ap"
+Allows for enemy quick-creation.
+								-Jacek
+*******************************************/
+
 characterEntity::characterEntity() //default constructor for characterEntity
 {								   //Overloaded will probably be used to make creation
 								   //easier

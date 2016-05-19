@@ -159,13 +159,17 @@
     <ClCompile Include="ItemPostion.cpp" />
     <ClCompile Include="ItemWeapons.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="map.cpp" />
     <ClCompile Include="mapEntity.cpp" />
     <ClCompile Include="menu.cpp" />
     <ClCompile Include="quit.cpp" />
+    <ClCompile Include="rooms.cpp" />
     <ClCompile Include="ShopCoin.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="characterEntity.h" />
+    <ClInclude Include="map.h" />
+    <ClInclude Include="rooms.h" />
     <ClInclude Include="ShopCoin.h" />
     <ClInclude Include="constants.h" />
     <ClInclude Include="entity.h" />

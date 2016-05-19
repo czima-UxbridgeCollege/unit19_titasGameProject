@@ -1,11 +1,3 @@
-/*******************************************
-			EVERYTHING HERE IS A WORK
-			IN PROGRESS/IN THE
-			MIDDLE OF BEING TESTED.
-			DON'T FUCKING TOUCH
-			ANYTHING IF YOU HAVE
-			NO IDEA WHAT YOU'RE DOING
-*******************************************/
 #ifndef ITEM_ENTITY_HEADER
 #define ITEM_ENTITY_HEADER
 
@@ -19,6 +11,7 @@ consumable items.
 contains "int itemUsesRemaining" and const types:
 "const short int WEAPON_ARMORS = 1" and
 "const short int CONSUMABLE	   = 2"
+							-Jacek
 *******************************************/
 class itemEntity:public entity
 {

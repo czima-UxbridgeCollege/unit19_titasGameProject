@@ -1,21 +1,8 @@
-/*******************************************
-			EVERYTHING HERE IS A WORK
-			IN PROGRESS/IN THE
-			MIDDLE OF BEING TESTED.
-			DON'T FUCKING TOUCH
-			ANYTHING IF YOU HAVE
-			NO IDEA WHAT YOU'RE DOING
-
-			These are all basically containers
-			hard to fuck it up, but I have 
-			faith one of you will manage.
-
-								-Jacek
-*******************************************/
 #ifndef ENTITY_HEADER
 #define ENTITY_HEADER
 
 #include <string>
+#include <iostream>
 
 /* NOT USED FOR THE TIME BEING, WAS TESTING STUFF */
 
@@ -31,6 +18,7 @@ all other objects, such as "rooms" and "items"
 In addition to basic const/dest, it contains
 a struct "entityIdBox" containing:
 id, name, type, description, isalive.
+						-Jacek
 *******************************************/
 class entity
 {

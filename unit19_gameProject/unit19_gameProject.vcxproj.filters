@@ -43,6 +43,12 @@
     <Filter Include="CPP Files\Shop CPP files">
       <UniqueIdentifier>{c77db385-52c7-4eb6-a8bc-d4b95b2b8618}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\Room and Map">
+      <UniqueIdentifier>{290b2ebf-a2a1-4023-b76b-316c3691b234}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CPP Files\Room and Map">
+      <UniqueIdentifier>{2bea6ba1-563d-40ba-9543-88d23f0924b1}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -90,6 +96,12 @@
     <ClCompile Include="ShopCoin.cpp">
       <Filter>CPP Files\Shop CPP files</Filter>
     </ClCompile>
+    <ClCompile Include="rooms.cpp">
+      <Filter>CPP Files\Room and Map</Filter>
+    </ClCompile>
+    <ClCompile Include="map.cpp">
+      <Filter>CPP Files\Room and Map</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="characterEntity.h">
@@ -136,6 +148,12 @@
     </ClInclude>
     <ClInclude Include="ShopCoin.h">
       <Filter>Header Files\Shop Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="rooms.h">
+      <Filter>Header Files\Room and Map</Filter>
+    </ClInclude>
+    <ClInclude Include="map.h">
+      <Filter>Header Files\Room and Map</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
