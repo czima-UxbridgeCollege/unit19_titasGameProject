@@ -8,6 +8,7 @@ all testing necessary
 #include "characterEntity.h"
 
 
+
 int main()
 {
 	
