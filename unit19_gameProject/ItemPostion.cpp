@@ -11,7 +11,7 @@ Mark
 
 ItemPotion::ItemPotion()//constructed 
 {
-	int i;
+	int i;//this is to repersent the turns in game 
 	
 	int thp;
 	thp = 10;
