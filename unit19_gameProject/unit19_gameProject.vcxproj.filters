@@ -102,6 +102,9 @@
     <ClCompile Include="map.cpp">
       <Filter>CPP Files\Room and Map</Filter>
     </ClCompile>
+    <ClCompile Include="interface.cpp">
+      <Filter>CPP Files\Entity CPP files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="characterEntity.h">
@@ -154,6 +157,9 @@
     </ClInclude>
     <ClInclude Include="map.h">
       <Filter>Header Files\Room and Map</Filter>
+    </ClInclude>
+    <ClInclude Include="interface.h">
+      <Filter>Header Files\Entity Headers</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
