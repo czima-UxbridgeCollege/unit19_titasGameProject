@@ -24,7 +24,7 @@ int body
 int legs
 *****************************************/
 
-class ItemArmor
+class ItemArmor:public itemEntity //Changed to inherit from itemEntity - this should allow me to put them in to the inventory array -Harrison
 {
 public:
 	ItemArmor();
