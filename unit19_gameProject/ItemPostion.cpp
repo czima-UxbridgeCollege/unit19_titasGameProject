@@ -11,6 +11,7 @@ Mark
 
 ItemPotion::ItemPotion()//constructed 
 {
+	setItemUsesRemaining(1);
 	int i;//this is to repersent the turns in game 
 	/*
 	this is all for testing porpuses 
