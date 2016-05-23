@@ -24,7 +24,7 @@ int health
 
 ******************************************/
 
-class ItemPotion
+class ItemPotion:public itemEntity //Changed to inherit from itemEntity - this should allow me to put them in to the inventory array -Harrison
 {
 public:
 	ItemPotion();

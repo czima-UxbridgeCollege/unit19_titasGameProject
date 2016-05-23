@@ -105,6 +105,12 @@
     <ClCompile Include="interface.cpp">
       <Filter>CPP Files\Entity CPP files</Filter>
     </ClCompile>
+    <ClCompile Include="inventory.cpp">
+      <Filter>CPP Files</Filter>
+    </ClCompile>
+    <ClCompile Include="combat.cpp">
+      <Filter>CPP Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="characterEntity.h">
@@ -160,6 +166,12 @@
     </ClInclude>
     <ClInclude Include="interface.h">
       <Filter>Header Files\Entity Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="inventory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="combat.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
