@@ -12,13 +12,18 @@ Mark
 ItemPotion::ItemPotion()//constructed 
 {
 	int i;//this is to repersent the turns in game 
+	/*
+	this is all for testing porpuses 
+	*/
 	
 	int thp;
-	thp = 10;
+	int hp;
+	hp = 10;
+	thp = 10;//this is just an example trying to test it
 	if (thp<=i) //this is a basic atemped at making a potion which only works for a set period of time
 	{
 
-		thp = 0;
+		thp = health;
 	}
 
 	

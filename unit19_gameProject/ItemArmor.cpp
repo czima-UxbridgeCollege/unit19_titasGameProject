@@ -24,7 +24,7 @@ ItemArmor::ItemArmor()
 	if(hprt = 0)//this is to show that the armor has been destoryed 
 	{
 	 
-		std::cout << "your head armor has been destroyed" << std::endl;
+		std::cout << "your helment has been destroyed" << std::endl;
 	}
 
 	if (bprt = 0)

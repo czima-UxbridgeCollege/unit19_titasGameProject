@@ -24,7 +24,7 @@ int body
 int legs
 *****************************************/
 
-class ItemArmor
+class ItemArmor 
 {
 public:
 	ItemArmor();
