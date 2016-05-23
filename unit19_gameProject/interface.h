@@ -6,7 +6,8 @@
 #include <SDL.h>
 using namespace std;
 /*******************************************
-
+This needs to be updated to use the player class
+in the functions once jacek has implemented them
 
 *******************************************/
 
@@ -17,7 +18,9 @@ public:
 	interface();
 	virtual ~interface();
 	int displayHealth();
-	int displayStats();
+	//int displayStats(player);
+	int actions();
+	int displayMap();//still needs work;
 protected:
 
 
