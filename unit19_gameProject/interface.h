@@ -19,6 +19,7 @@ public:
 	virtual ~interface();
 	int displayHealth();
 	//int displayStats(player);
+	int actions();
 	int displayMap();//still needs work;
 protected:
 

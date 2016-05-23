@@ -21,4 +21,7 @@ int interface::displayMap(){
 		cout <<"You look at your map";
 	};
 }
+int interface::actions(){
+
+}
 #pragma once
