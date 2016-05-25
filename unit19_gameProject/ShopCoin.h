@@ -33,8 +33,8 @@ public:
 	/*
 	here are the setters and getters for coin 
 	*/
-	void SetSliver(int sliver) {};
-	int GetSliver() {};
+	//void SetSliver(int sliver) {};
+	//int GetSliver() {};
 	void SetGold(int gold) {};
 	int GetGold() {};
 
@@ -42,7 +42,7 @@ private:
 	/*
 	I am setting 2 different vaules for each item 
 	*/
-	int sliver;
+	//int sliver;
 	int gold;
 };
 

@@ -21,13 +21,20 @@ ItemArmor::ItemArmor()
 	 
 	SetTotalDefence(10);//this is amount of damage that it takes off the attack 
 	
-	if (maxDurabilty = currentDurabilty / 2)
+	if (maxDurabilty = currentDurabilty / 2)//once the durability is half the defence for that item is also half
 	{
 
 		currentDefence = totalDefence / 2;
 
 	}
+
 	
+	if (currentDurabilty <= 0)
+	{
+		std::cout << "your" << getName() << "has been destoryed" << std::endl;//this is to show that an Item is being destoryed 
+
+
+	}
 
 }//creating both consturcter and destructer not sure if it is needed
 
