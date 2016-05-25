@@ -26,9 +26,21 @@ public:
 	
 			 entity(){};
 	virtual ~entity(){};	//Destructor made virtual to ensure the newest possible
-							//iteration is always used
+							//version is always used
 							//a virtual destructor has to be declared with each iteration
-							//otherwise shit breaks
+							//otherwise stuff breaks
+
+	void setId(int id);
+	void setName(std::string name);
+	void setType(std::string type);
+	void setDescription(std::string description);
+	void setAlive(bool isAlive);
+
+	int getId();
+	std::string getName();
+	std::string getType();
+	std::string getDescription();
+	bool getAlive();
 	
 	//void setEntityIdBox(entityIdBox entityBoxTest) 
 	//					std::string description, bool isAlive) {};
@@ -44,7 +56,7 @@ protected:
 		entity type				(string)
 		entity description		(string)
 		entity isAlive		    (bool)
-	*******************************************/
+	*******************************************
 	struct entityIdBox
 	{
 		int				id;
@@ -53,7 +65,7 @@ protected:
 		std::string		description;
 		bool			isAlive;
 	} entityBoxTest;
-
+	*/
 private:
 
 

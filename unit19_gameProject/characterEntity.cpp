@@ -4,16 +4,24 @@
 Character entity class deriving from basic abstract
 "entity". To be used for the player, as well as enemies.
 contains ints "hp, atk, def, ap"
-Allows for enemy quick-creation.
+Allows for enemy creation.
 								-Jacek
 *******************************************/
 
-characterEntity::characterEntity() //default constructor for characterEntity
-{								   //Overloaded will probably be used to make creation
-								   //easier
-	characterEntity::entityIdBox characterInfoStruct;
-	characterInfoStruct.isAlive = true;
-};
+
+/*******************************************
+			Constructor/Destructor
+*******************************************/
+characterEntity::characterEntity()  //default constructor for characterEntity
+{								    //Overloaded will probably be used to make creation
+								    //easier
+
+	characterEntity character;	    //creates new character object, containing all 
+									//variables from entity and characterEntity (hp, id, alive, etc)
+									//for full list of variables see entity&characterEntity
+	character.setAlive = true;
+	
+}
 
 //characterEntity::characterEntity(){}; //Overloaded const, must think of a more 
 										//efficient way to do this, instead of having

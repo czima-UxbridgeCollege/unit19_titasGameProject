@@ -9,7 +9,7 @@
 Character entity class deriving from basic abstract
 "entity". To be used for the player, as well as enemies.
 contains ints "hp, atk, def, ap"
-Allows for enemy quick-creation.
+Allows for enemy creation.
 							-Jacek
 *******************************************/
 
