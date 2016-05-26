@@ -150,6 +150,7 @@
   <ItemGroup>
     <ClCompile Include="characterEntity.cpp" />
     <ClCompile Include="combat.cpp" />
+    <ClCompile Include="enemy.cpp" />
     <ClCompile Include="entity.cpp" />
     <ClCompile Include="game.cpp" />
     <ClCompile Include="gameOver.cpp" />
@@ -165,6 +166,7 @@
     <ClCompile Include="map.cpp" />
     <ClCompile Include="mapEntity.cpp" />
     <ClCompile Include="menu.cpp" />
+    <ClCompile Include="player.cpp" />
     <ClCompile Include="quit.cpp" />
     <ClCompile Include="rooms.cpp" />
     <ClCompile Include="ShopCoin.cpp" />
@@ -172,9 +174,11 @@
   <ItemGroup>
     <ClInclude Include="characterEntity.h" />
     <ClInclude Include="combat.h" />
+    <ClInclude Include="enemy.h" />
     <ClInclude Include="interface.h" />
     <ClInclude Include="inventory.h" />
     <ClInclude Include="map.h" />
+    <ClInclude Include="player.h" />
     <ClInclude Include="rooms.h" />
     <ClInclude Include="ShopCoin.h" />
     <ClInclude Include="constants.h" />

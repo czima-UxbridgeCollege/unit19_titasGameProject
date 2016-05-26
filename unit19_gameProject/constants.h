@@ -6,7 +6,8 @@ This class contains all constant values which
 never change, such as state numbers.
 The const int values e.g. TITLE determine
 states in the state machine located in gameState 
-function.				-jacek
+function.			
+							-jacek
 *******************************************/
 int currentGameState= 0;
 const int TITLE		= 0;

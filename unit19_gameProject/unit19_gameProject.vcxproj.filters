@@ -60,9 +60,6 @@
     <ClCompile Include="itemEntity.cpp">
       <Filter>CPP Files\Entity CPP files</Filter>
     </ClCompile>
-    <ClCompile Include="mapEntity.cpp">
-      <Filter>CPP Files\Entity CPP files</Filter>
-    </ClCompile>
     <ClCompile Include="entity.cpp">
       <Filter>CPP Files\Entity CPP files</Filter>
     </ClCompile>
@@ -111,6 +108,15 @@
     <ClCompile Include="combat.cpp">
       <Filter>CPP Files</Filter>
     </ClCompile>
+    <ClCompile Include="enemy.cpp">
+      <Filter>CPP Files\Entity CPP files</Filter>
+    </ClCompile>
+    <ClCompile Include="player.cpp">
+      <Filter>CPP Files\Entity CPP files</Filter>
+    </ClCompile>
+    <ClCompile Include="mapEntity.cpp">
+      <Filter>CPP Files\Room and Map</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="characterEntity.h">
@@ -120,9 +126,6 @@
       <Filter>Header Files\Entity Headers</Filter>
     </ClInclude>
     <ClInclude Include="itemEntity.h">
-      <Filter>Header Files\Entity Headers</Filter>
-    </ClInclude>
-    <ClInclude Include="mapEntity.h">
       <Filter>Header Files\Entity Headers</Filter>
     </ClInclude>
     <ClInclude Include="ItemWeapons.h">
@@ -172,6 +175,15 @@
     </ClInclude>
     <ClInclude Include="combat.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>Header Files\Entity Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy.h">
+      <Filter>Header Files\Entity Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="mapEntity.h">
+      <Filter>Header Files\Room and Map</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

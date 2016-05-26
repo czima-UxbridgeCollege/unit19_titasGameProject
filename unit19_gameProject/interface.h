@@ -3,7 +3,8 @@
 
 #include <iostream>
 #include <string>
-#include <SDL.h>
+//#include <SDL.h>
+
 using namespace std;
 /*******************************************
 This needs to be updated to use the player class

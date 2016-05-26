@@ -1,4 +1,4 @@
-#ifndef GAMELOOP_H
+/*#ifndef GAMELOOP_H
 #define GAMELOOP_H
 
 class game 
@@ -14,4 +14,4 @@ public:
 
 
 };
-#endif
+#endif*/
