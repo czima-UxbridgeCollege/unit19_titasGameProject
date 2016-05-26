@@ -21,6 +21,7 @@ of coin a thrid may be added
 
 int gold
 int sliver 
+int value 
 
 *****************************************/
 
@@ -37,13 +38,17 @@ public:
 	//int GetSliver() {};
 	void SetGold(int gold) {};
 	int GetGold() {};
+	void SetValue(int value){}
+	int GetValue(){}
 
 private:
 	/*
-	I am setting 2 different vaules for each item 
+	I am setting 1 different vaule1 for each item may add sliver later 
+	I am also setting the induival value for weapons for now may add it to armor later
 	*/
 	//int sliver;
 	int gold;
+	int value;
 };
 
 ShopCoin::ShopCoin()
