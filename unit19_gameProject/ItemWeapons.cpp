@@ -29,7 +29,7 @@ damage will need to be added on when the player is attacking with weapons
 
 void ItemWeapons::SetSword(int sdamage) { sword = sdamage; }
 void ItemWeapons::SetAxe(int adamage) { axe = adamage; }
-void ItemWeapons::SetDamage(int dam) { damage = dam; }
+void ItemWeapons::SetDamage(int damage) { damage = damage; }
 
 int ItemWeapons::GetSword() { return sword; }
 int ItemWeapons::GetAxe() { return axe; }

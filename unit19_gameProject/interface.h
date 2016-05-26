@@ -4,9 +4,9 @@
 #include <iostream>
 #include <string>
 //#include <SDL.h>
-
 using namespace std;
 /*******************************************
+the inferface class will just help with the game interface.
 This needs to be updated to use the player class
 in the functions once jacek has implemented them
 
@@ -19,9 +19,9 @@ public:
 	interface();
 	virtual ~interface();
 	int displayHealth();
-	//int displayStats(player);
+	//int displayStats(player); - requires the player class
 	int actions();
-	int displayMap();//still needs work;
+	int displayMap();// - requires map functions to be finished
 protected:
 
 
@@ -29,7 +29,7 @@ protected:
 private:
 
 };
-#endif //End of menu Header
+#endif //End of interface Header
 
 
 
