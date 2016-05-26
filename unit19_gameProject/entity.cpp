@@ -26,4 +26,14 @@ entity::~entity()
 			Setters/Getters
 *******************************************/
 
-void entity::setId(int identifier) {  };
+void entity::setId(int identifier) { id = identifier; } //unique ID so the map library can be added and utilised, should time permit.
+void entity::setName(std::string entityName) { name = entityName; }
+void entity::setType(std::string entityType) { type = entityType; }
+void entity::setDescription(std::string entityDescription) { description = entityDescription; }
+void entity::setAlive(bool alive) { isAlive = alive; }
+
+int entity::getId() { return id; }
+std::string entity::getName() { return name; }
+std::string entity::getType() { return type; }
+std::string entity::getDescription() { return description; }
+bool entity::getAlive() { return isAlive; }
