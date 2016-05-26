@@ -1,5 +1,9 @@
 #ifndef GAMELOOP_H
 #define GAMELOOP_H
+#include <iostream>
+#include <string>
+#include <SDL.h>
+using namespace std;
 
 class game 
 {
@@ -10,7 +14,6 @@ public:
 	~game();
 	void initialise();
 	void run();
-	int lol;
 
 
 };

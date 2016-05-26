@@ -10,7 +10,7 @@ menu::menu()
 	if (choice == "NewDungeon" || "newdungeon") {
 
 		currentGameState = GAME;
-		//game();
+		//game(); - This will start the game
 		/*this section will change a state machine to start a new game*/
 
 
