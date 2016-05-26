@@ -30,7 +30,7 @@ public:
 							//a virtual destructor has to be declared with each iteration
 							//otherwise stuff breaks
 
-	void setId(int id);
+	void setId(int id);		//unique ID so the map library can be added and utilised, should time permit.
 	void setName(std::string name);
 	void setType(std::string type);
 	void setDescription(std::string description);
@@ -47,6 +47,12 @@ public:
 	//entityIdBox getEntityIdBox(){};
 	//testing ^ dont touch
 protected:
+
+	int id; 
+	std::string name;
+	std::string type;
+	std::string description;
+	bool isAlive;
 
 	/*******************************************
 		entityIdBox Struct
