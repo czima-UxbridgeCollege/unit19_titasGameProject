@@ -2,7 +2,6 @@
 #define HELP_HEADER
 
 #include <iostream>
-#include <string>
 #include <SDL.h>
 using namespace std;
 /*******************************************
@@ -16,7 +15,6 @@ public:
 
 	help();
 	virtual ~help();
-	string	choice;
 protected:
 
 
@@ -24,5 +22,5 @@ protected:
 private:
 
 };
-#endif //End of menu Header
+#endif //End of help Header
 
