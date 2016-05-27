@@ -10,7 +10,7 @@ function.
 							-jacek
 *******************************************/
 //Game State Variables used wherever Stephen uses them?
-int currentGameState = 0;
+//int currentGameState = 0;
 
 const int TITLE = 0;
 const int GAME = 1;
