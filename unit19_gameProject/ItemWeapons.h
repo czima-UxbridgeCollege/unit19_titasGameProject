@@ -21,6 +21,7 @@ the different types of swords until we have decided if we are going
 to use txt based programming
 int sword 
 int axe
+int damage
 
 */
 
@@ -31,10 +32,10 @@ public:
 	ItemWeapons();
 	~ItemWeapons();
 	//seters and getters for weapons
-	void SetSword(int sword);
-	int GetSword();
-	void SetAxe(int axe);
-	int GetAxe();
+	//void SetSword(int sword);
+	//int GetSword();
+	//void SetAxe(int axe);
+	//int GetAxe();
 	void SetDamage(int damage);
 	int GetDamage();
 
@@ -50,8 +51,8 @@ public:
 	//int GetExtiocSword(){};
 
 private:
-	int sword;//sword 
-	int axe;//axe
+	//int sword;//sword 
+	//int axe;//axe
 	int damage;//how much damage is done 
 	//int basicSword;
 	//int rareSword;

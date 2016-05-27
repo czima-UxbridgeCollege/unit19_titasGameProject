@@ -8,6 +8,9 @@ Mark
 
 *******************************************/
 #include"ItemWeapons.h"
+//just move this for testing 
+void ItemWeapons::SetDamage(int damage) { damage = damage; }
+int ItemWeapons::GetDamage() { return damage;}
 
 ItemWeapons::ItemWeapons() //not sure if weapons needs a constructer and destructer 
 {						  //but made them anyway to be on the safe side
@@ -28,10 +31,8 @@ SETTERS AND GETTERS
 damage will need to be added on when the player is attacking with weapons 
 ********************************/
 
-void ItemWeapons::SetSword(int sdamage) { sword = sdamage; }
-void ItemWeapons::SetAxe(int adamage) { axe = adamage; }
-void ItemWeapons::SetDamage(int damage) { damage = damage; }
+//void ItemWeapons::SetSword(int sdamage) { sword = sdamage; }
+//void ItemWeapons::SetAxe(int adamage) { axe = adamage; }
 
-int ItemWeapons::GetSword() { return sword; }
-int ItemWeapons::GetAxe() { return axe; }
-int ItemWeapons::GetDamage() { return damage;}
+//int ItemWeapons::GetSword() { return sword; }
+//int ItemWeapons::GetAxe() { return axe; }

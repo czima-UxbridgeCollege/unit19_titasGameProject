@@ -12,7 +12,7 @@ Mark
 
 ShopCoin::ShopCoin() {
 
-	int Gval;
+	gold=10;
 
 }
 
