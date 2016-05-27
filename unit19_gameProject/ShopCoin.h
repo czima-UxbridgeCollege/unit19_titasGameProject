@@ -36,10 +36,10 @@ public:
 	*/
 	//void SetSliver(int sliver) {};
 	//int GetSliver() {};
-	void SetGold(int gold) {};
-	int GetGold() {};
-	void SetValue(int value){}
-	int GetValue(){}
+	void SetGold(int gold) ;
+	int GetGold() ;
+	void SetValue(int value);
+	int GetValue();
 
 private:
 	/*
@@ -50,14 +50,6 @@ private:
 	int gold;
 	int value;
 };
-
-ShopCoin::ShopCoin()
-{
-}
-
-ShopCoin::~ShopCoin()
-{
-}
 
 
 

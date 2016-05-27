@@ -9,11 +9,23 @@ Mark
 *******************************************/
 #include"ItemArmor.h"
 #include<iostream>
+void ItemArmor::SetDefence(short int def) { defence = def; }
+int ItemArmor::GetDefence() { return defence; }
+void ItemArmor::SetTotalDefence(short int tdef) { totalDefence = tdef; }
+int ItemArmor::GetTotalDefence() { return totalDefence; }
+void ItemArmor::SetMaxDurabilty(short int mdur) { maxDurabilty = mdur; }
+int ItemArmor::GetMaxDurabilty() { return maxDurabilty; }
+void ItemArmor::SetCurrentDurabilty(short int dur) { currentDurabilty = dur; }
+int ItemArmor::GetCurrentDurability() { return currentDurabilty; }
+
+
+
+
 ItemArmor::ItemArmor()
 {
 	//these are the vaules for the armor
-	int currentDefence;
-	int totalDefence;
+	int currentDefence=10;
+	int totalDefence=10;
 
 	setItemUsesRemaining(30);//this is the durability for each armor pice 
 	 //max=setItemUsesRemaining
@@ -29,7 +41,7 @@ ItemArmor::ItemArmor()
 	}
 
 	
-	if (currentDurabilty <= 0)
+	if (currentDurabilty <= 0)//this is to tell the player that the item has been destoryed  
 	{
 		std::cout << "your" << getName() << "has been destoryed" << std::endl;//this is to show that an Item is being destoryed 
 
@@ -50,16 +62,9 @@ ItemArmor::~ItemArmor()
 /***************
 Setters and getters for armor
 just setting these up these may need to be change
-int prt will accpt the value of the amour 
+ 
 ****************/
-void ItemArmor::SetDefence(short int def) { defence = def; }
-int ItemArmor::GetDefence() {}
-void ItemArmor::SetTotalDefence(short int tdef) { totalDefence = tdef; }
-int ItemArmor::GetTotalDefence() {}
-void ItemArmor::SetMaxDurabilty(short int mdur) { maxDurabilty = mdur; }
-int ItemArmor::GetMaxDurabilty(){}
-void ItemArmor::SetCurrentDurabilty(short int dur) { currentDurabilty = dur; }
-int ItemArmor::GetCurrentDurability(){}
+
 /*
 void ItemArmor::SetHead(int hprt) { head = hprt;}
 void ItemArmor::SetBody(int bprt ) {body = bprt;}

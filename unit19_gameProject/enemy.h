@@ -15,14 +15,14 @@ class enemy :public characterEntity
 {
 public:
 
-	enemy() {};
+	enemy();
 	//Overloaded constructor for quick enemy creation, contains all basic values required
 	//for character creation.
 	enemy(std::string enemyName, std::string enemyType, 
 		  std::string enemyDescription, bool enemyAlive, 
 		  int enemyHealth, int enemyAtk, int enemyDef) {};
 
-	virtual ~enemy() {};
+	virtual ~enemy();
 
 protected:
 

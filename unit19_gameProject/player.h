@@ -16,8 +16,8 @@ class player :public characterEntity
 {
 public:
 
-			 player() {};
-	virtual ~player() {};
+			 player();
+	virtual ~player();
 
 	void setPlayerPosition(int posX, int posY);
 	void setPlayerInventory(int playerInventory[10]);

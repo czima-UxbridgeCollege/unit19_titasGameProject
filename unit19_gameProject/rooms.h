@@ -16,8 +16,8 @@ class rooms :public entity
 {
 public:
 	
-	rooms(){};
-	virtual ~rooms(){};	//Destructor made virtual to ensure the newest possible
+	rooms();
+	virtual ~rooms();	//Destructor made virtual to ensure the newest possible
 						//iteration is always used
 						//a virtual destructor has to be declared with each iteration
 						//otherwise stuff breaks

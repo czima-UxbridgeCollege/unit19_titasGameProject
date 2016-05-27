@@ -13,6 +13,7 @@ ItemWeapons::ItemWeapons() //not sure if weapons needs a constructer and destruc
 {						  //but made them anyway to be on the safe side
 
 
+	damage = 10 ;//this is going to be used in testing
 
 }
 

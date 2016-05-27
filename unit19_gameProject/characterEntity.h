@@ -16,8 +16,8 @@ class characterEntity :public entity
 {
 public:
 
-			 characterEntity() {};
-	virtual ~characterEntity() {};
+			 characterEntity();
+	virtual ~characterEntity();
 
 	//setters and getters
 	void setHP(int hp);

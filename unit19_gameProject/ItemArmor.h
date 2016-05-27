@@ -36,14 +36,14 @@ public:
 	//int GetBody() {};
 	//void SetLegs(int legs) {};
 	//int GetLegs() {};
-	void SetTotalDefence(short int tdef) {};
-	int GetTotalDefence() {};
-	void SetDefence( short int def ) {};
-	int GetDefence() {};
-	void SetMaxDurabilty(short int mdur) { };
-	int GetMaxDurabilty() {};
-	void SetCurrentDurabilty(short int dur) {};
-	int GetCurrentDurability() {};
+	void SetTotalDefence(short int tdef);
+	int GetTotalDefence() ;
+	void SetDefence( short int def ) ;
+	int GetDefence() ;
+	void SetMaxDurabilty(short int mdur) ;
+	int GetMaxDurabilty() ;
+	void SetCurrentDurabilty(short int dur) ;
+	int GetCurrentDurability();
 	
 
 private:
@@ -63,15 +63,6 @@ private:
 	int currentDurabilty;//this shows how many hits is has taken
 
 };
-
-ItemArmor::ItemArmor()
-{
-}
-
-ItemArmor::~ItemArmor()
-{
-}
-
 
 
 
