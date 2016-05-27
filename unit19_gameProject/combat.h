@@ -36,8 +36,11 @@ public:
 	//Flee - This will allow the player (maybe certain monsters too, at a later date) to flee from combat.
 	void flee();
 
-	//playerActions - this will call separate functions from the combat class according to the action the player wishes to take
+	//playerActions - This handles the player's turn, calling combat functions as the player wishes
 	bool playerActions(player &p1, enemy &e1);
+
+	//enemyActions - determines the actions the enemy will take on its turn. At the moment they will just attack; this will be changed later.
+	void enemyActions(player &p1, enemy &e1);
 
 	
 
@@ -46,7 +49,9 @@ public:
 protected:
 
 	bool playerTurn; //This will allow for switching between the turns of the player and enemy
-
+	bool combatActive; //bool to determine if the battle is ongoing or not.
+	bool combatWon; //bool to determine if the combat is won - will be used to determine if 
+					//treasure is gained or not (in the case of player/enemy fleeing)
 
 };
 

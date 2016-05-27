@@ -35,7 +35,7 @@ protected:
 	std::array <itemEntity*, 6> equippedItems; //Array of equipped items - Head, Torso, Arms, Legs, Neck accessory and Ring accessory
 	enum equipped { Head = 0, Torso = 1, Arms = 2, Legs = 3, Neck = 4, Ring = 5 }; //enumerator for the equippedItems array
 
-	
+	unsigned int gold; //unsigned int to hold player's gold - the player's gold cannot go below 0
 
 private:
 

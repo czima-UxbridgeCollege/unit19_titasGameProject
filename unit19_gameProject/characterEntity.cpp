@@ -45,21 +45,31 @@ int characterEntity::getATK() { return atk; }
 int characterEntity::getDEF() { return def; }
 int characterEntity::getAP() { return ap; }
 
+bool characterEntity::getDefending() { return isDefending; }
+
 /*******************************************
 			Combat Functions -Harrison
 *******************************************/
 
 void characterEntity::attack(characterEntity &target)
 {
+	short int damage = (getATK() - target.getDEF());
 
+	if (target.getDefending() == true)
+	{
+		damage /= 2;
+	}
 
-	target.setHP(target.getHP() - (getATK() - target.getDEF()));
-	std::cout << "The attack lands, dealing " << (getATK() - target.getDEF()) << " damage!\n\n";
+	target.setHP(target.getHP() - (damage));
+	std::cout << "The attack lands, dealing " << damage << " damage!\n\n";
 }
 
 void characterEntity::defend()
 {
-
+	if (isDefending == true)
+		isDefending = false;
+	else if (isDefending == false)
+		isDefending = true;
 }
 
 void characterEntity::printStatus()

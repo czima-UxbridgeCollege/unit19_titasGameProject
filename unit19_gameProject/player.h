@@ -2,7 +2,7 @@
 #define PLAYER_HEADER
 
 #include "characterEntity.h"
-//#include "inventory.h"
+#include "inventory.h"
 
 /*******************************************
 Player class containing all variables which pertain
@@ -38,8 +38,11 @@ protected:
 	int posY;					//as this makes it easy to track player position without
 								//having to know how big the map array is.
 
+	
 	int playerInventory[10];	//test inventory, to be replaced with the inventory from "inventory.h" once that's finished.
 								//NMFJ
+	
+	inventory equipment;		//inventory class functions as intended, so here it is.
 private:
 
 
