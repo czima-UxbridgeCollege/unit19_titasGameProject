@@ -12,20 +12,21 @@ Mark
 ItemPotion::ItemPotion()//constructed 
 {
 	setItemUsesRemaining(1);
-	int i;//this is to repersent the turns in game 
+	//int i;//this is to repersent the turns in game 
 	/*
 	this is all for testing porpuses 
 	*/
 	
 	int thp;
-	int hp;
-	hp = 10;
+	
+	health = 10;
 	thp = 10;//this is just an example trying to test it
-	if (thp<=i) //this is a basic atemped at making a potion which only works for a set period of time
+	/*if (thp<=i) //this is a basic atemped at making a potion which only works for a set period of time 
+	but I will try to do this when I know everything works
 	{
 
 		thp = health;
-	}
+	}*/
 
 	
 }
@@ -49,9 +50,9 @@ this are the setters and getters
 more maybe added like a boast to atk 
 */
 void ItemPotion::SetHealth(int php) { health = php; }
-void ItemPotion::SetTimeHealth(int thp) { tHealth = thp; }
+//void ItemPotion::SetTimeHealth(int thp) { tHealth = thp; } commenting out the time potion beacuse I dont think I can make it work 
 int ItemPotion::GetHealth() { return health; }
-int ItemPotion::GetTimeHealth() { return tHealth; }
+//int ItemPotion::GetTimeHealth() { return tHealth; }
 
 
 
