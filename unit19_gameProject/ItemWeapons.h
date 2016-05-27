@@ -31,12 +31,12 @@ public:
 	ItemWeapons();
 	~ItemWeapons();
 	//seters and getters for weapons
-	void SetSword(int sword) {};
-	int GetSword() {};
-	void SetAxe(int axe) {};
-	int GetAxe() {};
-	void SetDamage(int damage) {};
-	int GetDamage() {};
+	void SetSword(int sword);
+	int GetSword();
+	void SetAxe(int axe);
+	int GetAxe();
+	void SetDamage(int damage);
+	int GetDamage();
 
 	/****************************************
 	This is only to be used if we do not use 
@@ -52,7 +52,7 @@ public:
 private:
 	int sword;//sword 
 	int axe;//axe
-	int damage//how much damage is done 
+	int damage;//how much damage is done 
 	//int basicSword;
 	//int rareSword;
 	//int extiocSword

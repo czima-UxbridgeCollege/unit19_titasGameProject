@@ -19,9 +19,10 @@ int interface::displayStats(player) {
 int interface::displayMap(){
 	for (int i = 0;i++; i < 10) {
 		cout <<"You look at your map";
-	};
+	}
+	return 1;//TODO(STEPHEN) : complete function 
 }
 int interface::actions(){
-
+	return 1;//TODO(STEPHEN) : complete function 
 }
 #pragma once
