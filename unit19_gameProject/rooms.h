@@ -17,9 +17,9 @@ class rooms :public entity
 {
 public:
 
-	rooms() {};
+	rooms();
 	rooms(short int roomChoice);
-	virtual ~rooms() {};
+	virtual ~rooms();
 
 	void startRoomInit();			//Room the player starts in
 	void emptyRoomInit();			//Room with nothing of interest, can be used for story?
