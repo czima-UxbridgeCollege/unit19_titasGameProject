@@ -50,3 +50,19 @@ int player::getPlayerInventory()	//returns the temporary test inventory, printin
 		std::cout<<playerInventory[i];
 	}
 }
+
+/*******************************************
+			Combat Functions -Harrison
+*******************************************/
+
+void player::use()
+{
+
+	for (int i = 0; i < 30; i++)
+	{
+		if (equipment.getInventory(i).getName().name.find(itemName) != std::string::npos)
+		{
+
+		}
+	}
+}

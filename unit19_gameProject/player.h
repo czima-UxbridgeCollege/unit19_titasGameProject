@@ -24,6 +24,14 @@ public:
 
 	int getPlayerPosition();
 	int getPlayerInventory();
+
+	/*******************************************
+				Combat functions
+	-Harrison
+	*******************************************/
+	//Use - Allows the player to use an item from their inventory. Will work when inventory is fixed.
+	void use();
+
 protected:
 
 	int posX;					//player position is stored in two integers, X and Y

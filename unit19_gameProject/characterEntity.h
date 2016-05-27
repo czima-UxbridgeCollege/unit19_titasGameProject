@@ -31,6 +31,18 @@ public:
 	int getDEF();
 	int getAP();		 //AP getter for future use.
 
+	/*******************************************
+	Combat functions - move these to player and enemy if you think that would be better
+	-Harrison
+	*******************************************/
+	//Attack - entity1 deals damage to entity2
+	void attack(characterEntity &target);
+
+	//Defend - Temporarily increases the defence of the entity that takes this action (Dur. 1 turn)
+	void defend();
+
+	//printStatus - prints the character's stats to the console
+	void printStatus();
 
 protected:
 
@@ -38,6 +50,8 @@ protected:
 	int atk;				 //they arent needed here anyway
 	int def;
 	int ap;
+
+	bool isDefending;
 
 private:
 

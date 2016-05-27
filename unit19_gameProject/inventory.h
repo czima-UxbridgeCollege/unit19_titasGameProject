@@ -10,7 +10,7 @@
 Inventory class for managing items the player has
 equipped/ is carrying around.
 
-Tell me if you think anything needs changed/added.
+Tell me if you think anything needs changed/added, or if you have any improvements/suggestions to make.
 
 -Harrison
 *******************************************/
@@ -22,19 +22,20 @@ public:
 	virtual ~inventory() {};
 
 	//Setters and Getters
-	void setInventory(itemEntity item);
+	void setInventory(itemEntity &item);
 	itemEntity getInventory(int slot);
 
-
-
+	//Print - Displays player's inventory contents to screen
+	void printInventory();
 
 
 protected:
-	void printInventory();		//Print function used to display player's inventory contents
 
-	std::array <itemEntity, 30> inventoryItems; //Array that allows the player to carry up to 30 items.
-	std::array <itemEntity, 6> equippedItems; //Array of equipped items - Head, Torso, Arms, Legs, Neck accessory and Ring accessory
+	std::array <itemEntity*, 30> inventoryItems; //Array that allows the player to carry up to 30 items.
+	std::array <itemEntity*, 6> equippedItems; //Array of equipped items - Head, Torso, Arms, Legs, Neck accessory and Ring accessory
 	enum equipped { Head = 0, Torso = 1, Arms = 2, Legs = 3, Neck = 4, Ring = 5 }; //enumerator for the equippedItems array
+
+	
 
 private:
 

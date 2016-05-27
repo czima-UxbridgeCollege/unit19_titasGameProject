@@ -44,3 +44,27 @@ int characterEntity::getHP() { return hp; }
 int characterEntity::getATK() { return atk; }
 int characterEntity::getDEF() { return def; }
 int characterEntity::getAP() { return ap; }
+
+/*******************************************
+			Combat Functions -Harrison
+*******************************************/
+
+void characterEntity::attack(characterEntity &target)
+{
+
+
+	target.setHP(target.getHP() - (getATK() - target.getDEF()));
+	std::cout << "The attack lands, dealing " << (getATK() - target.getDEF()) << " damage!\n\n";
+}
+
+void characterEntity::defend()
+{
+
+}
+
+void characterEntity::printStatus()
+{
+	std::cout << getName() << "'s status: \n\n";
+	std::cout << "Health:    " << getHP() << std::endl;
+	//More stats to be added soon!
+}
