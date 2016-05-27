@@ -14,6 +14,7 @@ id, name, type, description, isalive.
 *******************************************/
 entity::entity()
 {
+	std::cout << "creation test";
 
 }
 

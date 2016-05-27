@@ -1,33 +1,39 @@
 #ifndef ROOMS_HEADER
 #define ROOMS_HEADER
 
-#include <string>
-#include <iostream>
 #include "entity.h"   
+#include "constants.h"
+//#include "combat.h"		//to be added once it's finished
+//#include "player.h"		//unnecessary here? can be added to mapEntity instead
 
 /*******************************************
 Used for room creation, this .h will house multiple
 room type structs, including a basic "room" one.
-Those room structs will be plugged into a dynamically
-changing array, allowing the user to traverse it.
-							-Jacek
+Those room structs will be plugged  into a dynamically
+changing vector array, allowing the user to traverse it.
+-Jacek
 *******************************************/
 class rooms :public entity
 {
 public:
-	
-	rooms();
-	virtual ~rooms();	//Destructor made virtual to ensure the newest possible
-						//iteration is always used
-						//a virtual destructor has to be declared with each iteration
-						//otherwise stuff breaks
+
+	rooms() {};
+	rooms(short int roomChoice);
+	virtual ~rooms() {};
+
+	void startRoomInit();			//Room the player starts in
+	void emptyRoomInit();			//Room with nothing of interest, can be used for story?
+	void encounterRoomInit();		//Room which initialises combat
+	void lootRoomInit();			//Room which offers a piece of loot to pick up
+	void exitRoomInit();			//Room which advances the level by 1
+
+
 protected:
 
-	
 
 private:
-	bool EMPTY_ROOM, ENCOUNTER_ROOM, LOOT_ROOM, EXIT_ROOM, START_ROOM; //boolean identifiers for selecting rooms, only one is true at any one time.
-	std::string roomDescription;									   //description can be added so players can find out what's in the room.
+
+	//short int roomChoice;
 
 };
 #endif //End of Entity Header

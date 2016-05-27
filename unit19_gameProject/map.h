@@ -2,6 +2,8 @@
 #define MAP_HEADER
 
 #include "rooms.h"
+#include "vector"
+using std::vector;
 
 /*******************************************
 Class responsible for the creation of a room array,
@@ -23,7 +25,11 @@ public:
 protected:
 
 private:
-	rooms mapArray[5][5];
+	int sizeX = 5, sizeY = 5;
+
+	vector<vector<rooms>> mapArray;
+
+	//rooms mapArray[sizeX][sizeY];
 
 };
 

@@ -14,13 +14,13 @@ Allows for enemy creation.
 *******************************************/
 characterEntity::characterEntity()  //default constructor for characterEntity
 {								    //Overloaded will probably be used to make creation
-								    //easier
+									//easier
 
-	characterEntity character;	    //creates new character object, containing all 
+									//creates new character object, containing all 
 									//variables from entity and characterEntity (hp, id, alive, etc)
 									//for full list of variables see entity&characterEntity
-	character.setAlive = true;
-	
+	setAlive(true);
+
 }
 
 //characterEntity::characterEntity(){}; //Overloaded const, must think of a more 

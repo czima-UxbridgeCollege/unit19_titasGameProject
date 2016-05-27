@@ -49,6 +49,7 @@ int player::getPlayerInventory()	//returns the temporary test inventory, printin
 	{
 		return playerInventory[i];
 	}
+	return playerInventory[2]; //testing
 }
 
 /*******************************************
