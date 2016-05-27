@@ -17,8 +17,8 @@ class itemEntity:public entity
 {
 public:
 
-			 itemEntity(){};
-	virtual ~itemEntity(){};
+			 itemEntity();
+	virtual ~itemEntity();
 
 	//setters and getters
 	void setItemUsesRemaining(short int itemUsesRemaining);

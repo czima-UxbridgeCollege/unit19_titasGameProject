@@ -26,4 +26,4 @@ Setters/Getters
 
 void itemEntity::setItemUsesRemaining(short int itemUsesRemaining){}
 
-short int itemEntity::getItemUsesRemaining() {}
+short int itemEntity::getItemUsesRemaining() { return itemUsesRemaining; }
