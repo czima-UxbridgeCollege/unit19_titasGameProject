@@ -5,15 +5,25 @@
 
 /*******************************************
 Class responsible for the creation of a room array,
-it will contain a "room roomArray[x][x]" array, where 
+it contains a "room roomArray[x][x]" array, where
 x stands for (level number + 5);
-							-Jacek
+-Jacek
 *******************************************/
-
 class map
 {
+public:
 
+	map();
+	virtual ~map();
 
+	void setMapArray(int level); //allows for the array size to be set dynamically using x+5
+								 //where x = level.
+	rooms getMapArray();
+
+protected:
+
+private:
+	rooms mapArray[5][5];
 
 };
 

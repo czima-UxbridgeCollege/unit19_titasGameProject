@@ -24,7 +24,7 @@ player::player()
 	posX = 0;
 	posY = 0;
 
-	for (int i; i <= 10; i++)
+	for (int i = 0; i <= 10; i++)
 	{
 		playerInventory[i] = i; //fills up the test inventory array with incrementing ints
 	}
@@ -45,8 +45,8 @@ void player::setPlayerInventory(int inventory[10]){}
 int player::getPlayerPosition() { return posX, posY; };
 int player::getPlayerInventory()	//returns the temporary test inventory, printing the whole thing out.
 {
-	for(int i; i <= 10; i++)
+	for(int i = 0; i <= 10; i++)
 	{
-		std::cout<<playerInventory[i];
+		return playerInventory[i];
 	}
 }

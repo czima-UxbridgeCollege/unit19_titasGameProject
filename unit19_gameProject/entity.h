@@ -24,8 +24,8 @@ class entity
 {
 public:
 	
-			 entity(){};
-	virtual ~entity(){};	//Destructor made virtual to ensure the newest possible
+			 entity();
+	virtual ~entity();	//Destructor made virtual to ensure the newest possible
 							//version is always used
 							//a virtual destructor has to be declared with each iteration
 							//otherwise stuff breaks
