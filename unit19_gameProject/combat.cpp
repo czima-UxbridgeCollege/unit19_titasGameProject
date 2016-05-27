@@ -4,7 +4,8 @@ void combat::startCombat(player &p1, enemy &e1)
 {
 	short int choice = 0; //takes in the player's choice - to be passed into playerActions when it is called
 
-	while (p1.getHP() > 0 && e1.getHP() > 0)
+
+	while (p1.getHP() > 0 && e1.getHP() > 0 && combatActive == true)
 	{
 
 
@@ -30,8 +31,7 @@ void combat::startCombat(player &p1, enemy &e1)
 
 		else if (playerTurn == false) //For now the enemy is just set to attack the player. 
 		{								//I will try to do this better when the player/enemy classes are set up.
-			std::cout << "The enemy attacks you! \n";
-			e1.attack(p1);
+			enemyActions(p1, e1);
 			playerTurn = true;
 
 		}
@@ -44,11 +44,16 @@ void combat::startCombat(player &p1, enemy &e1)
 
 void combat::flee()
 {
-
+	combatActive = false;
 }
 
 bool combat::playerActions(player &p1, enemy &e1)
 {
+
+	if (p1.getDefending == true)
+	{
+		p1.defend();
+	}
 	short int choice;
 
 	std::cout << "What action will you take? (input a number) \n";
@@ -82,4 +87,8 @@ bool combat::playerActions(player &p1, enemy &e1)
 	}
 }
 
-
+void combat::enemyActions(player &p1, enemy &e1)
+{
+	std::cout << "The enemy attacks you! \n";
+	e1.attack(p1);
+}

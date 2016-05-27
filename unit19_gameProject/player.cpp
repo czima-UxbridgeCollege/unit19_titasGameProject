@@ -57,12 +57,17 @@ int player::getPlayerInventory()	//returns the temporary test inventory, printin
 
 void player::use()
 {
+	std::string choice;
 
-	for (int i = 0; i < 30; i++)
+	std::cout << "What item would you like to use? Make sure it's a potion!";
+
+
+
+	for (int i = 0; i < sizeof(equipment); i++)
 	{
-		if (equipment.getInventory(i).getName().name.find(itemName) != std::string::npos)
+		if (equipment.getInventory(i).getName().find(choice) != std::string::npos)
 		{
-
+			//the code here will check that the item is useable and if it is, will use the item when that code is complete.
 		}
 	}
 }

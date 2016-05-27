@@ -31,6 +31,8 @@ public:
 	int getDEF();
 	int getAP();		 //AP getter for future use.
 
+	bool getDefending(); //wasn't sure how else to externally check if the player is defending -Harrison
+
 	/*******************************************
 	Combat functions - move these to player and enemy if you think that would be better
 	-Harrison
@@ -51,7 +53,7 @@ protected:
 	int def;
 	int ap;
 
-	bool isDefending;
+	bool isDefending;		//boolean used in combat to determine if the character is defending
 
 private:
 

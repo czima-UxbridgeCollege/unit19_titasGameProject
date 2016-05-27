@@ -4,6 +4,19 @@
 
 inventory::inventory()
 {
+	gold = 0; //initialises player gold to 0
+
+
+	//point inventoryItems and equippedItems to an empty space - error prevention
+	for (int i = 0; i < sizeof(inventoryItems); i++)
+	{
+		inventoryItems[i] = NULL;
+	}
+
+	for (int i = 6; i < sizeof(equippedItems); i++)
+	{
+		equippedItems[i] = NULL;
+	}
 
 }
 
@@ -21,7 +34,6 @@ void inventory::setInventory(itemEntity &item)
 			if (inventoryItems[i]->getName() == "<empty>") //goes through inventory until it finds an empty slot
 			{
 				inventoryItems[i] = &item; //one it finds an empty slot it inserts the item
-				inventoryItems[i]->setItemUsesRemaining(1);				  //assumes item can be used only once for now
 				break;													  //and breaks from the loop
 			}
 		}
@@ -32,7 +44,6 @@ void inventory::setInventory(itemEntity &item)
 			
 		}
 
-		if ()
 	}
 }
 
@@ -43,9 +54,11 @@ itemEntity inventory::getInventory(int slot)
 
 void inventory::printInventory()
 {
+	std::cout << "Gold: " << gold;
+	std::cout << "Held items: \n\n";
+
 	for (int i = 0; i <sizeof(inventoryItems); i++) //For loop outputs a list of carried items
 	{
-		std::cout << i << ". " << inventoryItems[i]->getName() << std::endl; // Outputs item number for now, will use entityIdBox struct
-																			//  to output item's name when getters are done
+		std::cout << i + 1 << ". " << inventoryItems[i]->getName() << std::endl; // outputs the name of each item in the inventory
 	}
 }
