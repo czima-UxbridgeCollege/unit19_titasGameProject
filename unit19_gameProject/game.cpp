@@ -1,4 +1,4 @@
-#include "game.h"
+/*#include "game.h"
 
 game::game(){
 	//Some text to start off the game
@@ -21,3 +21,4 @@ void game::initialise()
 void game::run()
 {
 }
+*/

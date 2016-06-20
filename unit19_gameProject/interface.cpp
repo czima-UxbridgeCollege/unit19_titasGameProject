@@ -9,16 +9,19 @@ interface::interface(){
 interface::~interface(){
 
 }
-/*
-int interface::displayStats(player) {
-	cout << "Health  : "<<player.GetHealth();
-	cout << "Mana    : "<<player.GetAP();
-	cout << "Attack  : "<<player.GetATK();
-	cout << "Defence : "<<player.GetDEF();
-}*/
+
+void interface::displayStats(player temp) {
+	cout << "Health  : " << temp.getHP()<<"\n";
+	cout << "Mana    : " << temp.getAP()<<"\n";
+	cout << "Attack  : " << temp.getATK()<<"\n";
+	cout << "Defence : " << temp.getDEF()<<"\n\n";
+	return;
+}
 int interface::displayMap(){
-	for (int i = 0;i++; i < 10) {
-		cout <<"You look at your map";
+	cout << "You are on Level : \n";//<< level;
+	for (int i = 0; i < 10; i++) {
+		rooms roomArray[4][4];
+		
 	}
 	return 1;//TODO(STEPHEN) : complete function 
 }

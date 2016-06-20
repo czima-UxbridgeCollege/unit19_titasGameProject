@@ -3,7 +3,9 @@
 
 #include <iostream>
 #include <string>
-//#include <SDL.h>
+#include "player.h"
+#include "map.h"
+
 using namespace std;
 /*******************************************
 the inferface class will just help with the game interface.
@@ -19,7 +21,7 @@ public:
 	interface();
 	virtual ~interface();
 	int displayHealth();
-	//int displayStats(player); - requires the player class
+	void displayStats(player);
 	int actions();
 	int displayMap();// - requires map functions to be finished
 protected:

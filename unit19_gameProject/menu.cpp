@@ -27,7 +27,6 @@ menu::menu()
 
 		currentGameState = HELP;
 		//help();
-		/*this section will change a state machine to start a game which it should draw information a saved file text document*/
 		/*Wokring*/
 	}
 
